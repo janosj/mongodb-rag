@@ -1,0 +1,16 @@
+In the Atlas UI, create the following Vector search index
+on the langchain_demo.collection_of_text_blobs.
+
+IMPORTANT: The index must be named 'default', or the demo won't work.
+But the default name is 'vector_index', so change that!
+
+{
+  "fields": [{
+    "path": "embedding",
+    "numDimensions": 1536,
+    "similarity": "cosine",
+    "type": "vector"
+  }]
+}
+
+

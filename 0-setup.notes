@@ -1,0 +1,19 @@
+Original blog:
+https://www.mongodb.com/developer/products/atlas/rag-atlas-vector-search-langchain-openai/
+
+Original repo:
+https://github.com/mongodb-developer/atlas-vector-search-rag
+
+
+This repo adds some convenience scripts to make it easier to launch and demo. Some initial setup steps are still required:
+
+  1. Copy the key_param.py.EXAMPLE file to key_param.py and supply your openAI API key and MONGO_URI.
+
+  2. Create a sample_files folder and the initial 3 sample documents as directed in the original blog.
+
+  3. Run the scripts to install the python packages and load the sample documents.
+
+  4. Create the vector index manually. See the corresponding notes file for the index definition. 
+
+  5. Run the app. If you retain the collection and vector index in your Atlas cluster, this is all you'll have to do on for subsequent demonstrations. 
+
